@@ -14,7 +14,7 @@ const port = process.env.PORT || 3000
 
 app.get('/get',(req,res) => {
 
-    res.send('{"name":"jigar"}')
+    res.json({"name": "jigar"});
         
 
 })
